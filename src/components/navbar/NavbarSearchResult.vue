@@ -16,7 +16,7 @@
             @mouseover="selectedUser = user"
             @mouseleave="selectedUser = null"
             href="#"
-            class="-mx-5 px-5 py-2 flex items-center gap-2 hover:bg-gray-200"
+            class="user -mx-5 px-5 py-2 flex items-center gap-2 hover:bg-gray-200"
           >
             <UserLogo
               :size="10"
