@@ -10,3 +10,10 @@ export const getFakerUsers = async (search: string): Promise<IUserInDto[]> => {
       user.last_name.toLowerCase().includes(search.toLowerCase())
   );
 };
+
+export const getFakeCurrentUser = async (): Promise<IUserInDto> => {
+  const mockedData = await import("@/assets/mocked_data.json");
+  const users = Array.from(mockedData) as IUserInDto[];
+
+  return users[0];
+};

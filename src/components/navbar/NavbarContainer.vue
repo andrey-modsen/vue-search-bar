@@ -38,6 +38,7 @@
               <div class="ml-3 relative" @click="showMenu = !showMenu">
                 <div>
                   <button
+                    v-if="user"
                     type="button"
                     class="max-w-xs bg-gray-800 rounded-full flex items-center text-sm focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-white"
                     id="user-menu-button"
@@ -45,10 +46,13 @@
                     aria-haspopup="true"
                   >
                     <span class="sr-only">Open user menu</span>
-                    <img
-                      class="h-8 w-8 rounded-full"
-                      src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
-                      alt=""
+                    <UserLogo
+                      :size="10"
+                      :online="user.active"
+                      :logo="user.avatar"
+                      :first-name="user.firstName"
+                      :last-name="user.lastName"
+                      :membership="user.membership"
                     />
                   </button>
                 </div>
@@ -102,6 +106,7 @@ import { defineComponent } from "vue";
 import { BellIcon } from "@heroicons/vue/outline";
 import NavbarSearch from "./NavbarSearch.vue";
 import NavbarSearchResult from "./NavbarSearchResult.vue";
+import UserLogo from "@/components/shared/UserLogo.vue";
 import { searchUsers } from "@/api";
 import { IUserOutDto } from "@/models";
 
@@ -109,11 +114,12 @@ export default defineComponent({
   name: "NavbarComponent",
   components: {
     BellIcon,
+    UserLogo,
     NavbarSearch,
     NavbarSearchResult,
   },
   props: {
-    msg: String,
+    user: Object,
   },
   data() {
     return {
