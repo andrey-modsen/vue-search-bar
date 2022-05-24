@@ -1,0 +1,1 @@
+"use strict";(self["webpackChunkvue_search_bar"]=self["webpackChunkvue_search_bar"]||[]).push([[167],{167:function(e,a,s){e.exports=s.p+"img/Duncan_Bentley.4de3baf2.jpg"}}]);

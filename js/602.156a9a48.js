@@ -1,0 +1,1 @@
+"use strict";(self["webpackChunkvue_search_bar"]=self["webpackChunkvue_search_bar"]||[]).push([[602],{4602:function(e,a,r){e.exports=r.p+"img/Adriano_Alfaro.cb73d178.jpg"}}]);

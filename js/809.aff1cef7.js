@@ -1,0 +1,1 @@
+"use strict";(self["webpackChunkvue_search_bar"]=self["webpackChunkvue_search_bar"]||[]).push([[809],{9809:function(e,a,s){e.exports=s.p+"img/Luca_Dimitrov.10739f6a.jpg"}}]);

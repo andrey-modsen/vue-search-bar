@@ -1,0 +1,1 @@
+"use strict";(self["webpackChunkvue_search_bar"]=self["webpackChunkvue_search_bar"]||[]).push([[268],{2268:function(e,a,s){e.exports=s.p+"img/Magrit_Stiffel.c465b3ea.jpg"}}]);

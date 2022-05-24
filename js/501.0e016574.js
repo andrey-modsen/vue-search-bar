@@ -1,0 +1,1 @@
+"use strict";(self["webpackChunkvue_search_bar"]=self["webpackChunkvue_search_bar"]||[]).push([[501],{9501:function(e,s,a){e.exports=a.p+"img/Kevin_Aldano.d2874de0.jpg"}}]);

@@ -1,0 +1,1 @@
+"use strict";(self["webpackChunkvue_search_bar"]=self["webpackChunkvue_search_bar"]||[]).push([[901],{8901:function(e,r,s){e.exports=s.p+"img/Luc_Bernier.1629d3f5.jpg"}}]);

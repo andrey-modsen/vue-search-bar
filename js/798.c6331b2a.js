@@ -1,0 +1,1 @@
+"use strict";(self["webpackChunkvue_search_bar"]=self["webpackChunkvue_search_bar"]||[]).push([[798],{3798:function(e,s,u){e.exports=u.p+"img/Amy-Louise_Klein.44a34e03.jpg"}}]);

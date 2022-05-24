@@ -1,0 +1,1 @@
+"use strict";(self["webpackChunkvue_search_bar"]=self["webpackChunkvue_search_bar"]||[]).push([[834],{6834:function(e,a,s){e.exports=s.p+"img/Holly_Maldano.9ebeb6c8.jpg"}}]);

@@ -1,0 +1,1 @@
+"use strict";(self["webpackChunkvue_search_bar"]=self["webpackChunkvue_search_bar"]||[]).push([[719],{9719:function(e,s,a){e.exports=a.p+"img/Brittany_Walsh.6290d44d.jpg"}}]);

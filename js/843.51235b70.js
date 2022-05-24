@@ -1,0 +1,1 @@
+"use strict";(self["webpackChunkvue_search_bar"]=self["webpackChunkvue_search_bar"]||[]).push([[843],{6843:function(e,a,s){e.exports=s.p+"img/Nathan_Azevedo.f696d67b.jpg"}}]);

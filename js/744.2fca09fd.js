@@ -1,0 +1,1 @@
+"use strict";(self["webpackChunkvue_search_bar"]=self["webpackChunkvue_search_bar"]||[]).push([[744],{4744:function(e,s,a){e.exports=a.p+"img/Nino_Endrizzi.33b0f7fa.jpg"}}]);
